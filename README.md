@@ -19,4 +19,5 @@ catalog/view/theme/default/template/product/product.tpl
 `<input type="text" name="name" value="" />`
 
 *replace* with -
+
 `<input type="text" name="name" value="<?php echo $FirstName.' '.$LastName; ?>" />`
