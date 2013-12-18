@@ -104,12 +104,15 @@ class Controlleraccountreviews extends Controller {
                     $image = false;
                 }
 
+                $text = str_replace("\n", "<br />", $review['text']);
+
                 $data[$review['review_id']] = array(
                     'review_id'         => $review['review_id'],
                     'author'            => $review['author'],
                     'rating'            => $review['rating'],
+                    'text'              => html_entity_decode($text, ENT_QUOTES, 'UTF-8'),
                     'href'              => $this->url->link('product/product', 'product_id=' . $review['product_id']),
-                    'image'              => $image,
+                    'image'             => $image,
                     'name'              => $review['name'],
                     'date_added'        => $review['date_added'],
                 );
