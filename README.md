@@ -1,4 +1,4 @@
-comments2products
+# H1 comments2products
 =================
 
 Module for opencart 1.5 sho comments for product in customer account page
@@ -17,5 +17,6 @@ catalog/view/theme/default/template/product/product.tpl
 
 *found* -
 `<input type="text" name="name" value="" />`
+
 *replace* with -
 `<input type="text" name="name" value="<?php echo $FirstName.' '.$LastName; ?>" />`
