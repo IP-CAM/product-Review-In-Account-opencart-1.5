@@ -16,7 +16,7 @@ Also need update the views
 catalog/view/theme/default/template/product/product.tpl
 
 *found* -
-`<input type="text" name="name" value="" />`--
+`<input type="text" name="name" value="" />`
 
 *replace* with -
 `<input type="text" name="name" value="<?php echo $FirstName.' '.$LastName; ?>" />`
