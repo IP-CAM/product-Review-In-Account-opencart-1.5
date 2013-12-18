@@ -20,8 +20,10 @@
 
     .review-list > ul > li {
         list-style: none;
-        margin: 0;
+        float: left;
+        margin: 0 0 10px;
         padding: 0;
+        clear: both;
     }
 
     .review-list > ul > li div {
@@ -32,12 +34,10 @@
 
     .review-list > ul > li .review a {
         float: left;
+        display: inline-block;
+        vertical-align: bottom;
     }
 
-    .review-list > ul > li .review > div + div {
-        clear: both;
-        float: left;
-    }
 
 </style>
 
