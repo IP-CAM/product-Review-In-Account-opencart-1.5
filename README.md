@@ -8,10 +8,14 @@ Update catalog/controller/product/product.php
 For fast add First and Last name
 
  add:
-     `$firstname = $this->customer->getFirstName();`
-     `$lastname = $this->customer->getLastName();`
-     `$this->data['FirstName'] = isset($firstname)?$firstname:'';`
-     `$this->data['LastName'] = isset($lastname)?$lastname:'';`
+
+     `$firstname = $this->customer->getFirstName();
+
+     $lastname = $this->customer->getLastName();
+
+     $this->data['FirstName'] = isset($firstname)?$firstname:'';
+
+     $this->data['LastName'] = isset($lastname)?$lastname:'';`
      
 Somewere near line 280
 
