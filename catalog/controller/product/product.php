@@ -159,7 +159,15 @@ class ControllerProductProduct extends Controller {
 		} else {
 			$product_id = 0;
 		}
-		
+
+        if ($this->customer->isLogged()) {
+            $FirtName = $this->customer->getFirstName();
+            $LastName = $this->customer->getLastName();
+        }
+
+        $this->data['FirstName'] = isset($FirtName)?$FirtName:'';
+        $this->data['LastName'] = isset($LastName)?$LastName:'';
+
 		$this->load->model('catalog/product');
 		
 		$product_info = $this->model_catalog_product->getProduct($product_id);

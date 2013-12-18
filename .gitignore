@@ -9,9 +9,11 @@ catalog/*
 download/*
 image/*
 install/*
+_install/*
 system/*
 
 .htaccess.txt
 config-dist.php
+config.php
 index.php
 php.ini
