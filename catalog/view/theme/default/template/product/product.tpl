@@ -282,7 +282,7 @@
     <div id="review"></div>
     <h2 id="review-title"><?php echo $text_write; ?></h2>
     <b><?php echo $entry_name; ?></b><br />
-      <input type="text" name="name" value="" />
+      <input type="text" name="name" value="<?php echo $FirstName.' '.$LastName; ?>" />
     <br />
     <br />
     <b><?php echo $entry_review; ?></b>
