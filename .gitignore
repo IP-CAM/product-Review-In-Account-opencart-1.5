@@ -1,9 +1,9 @@
 # Config and Htaccess Files
 /admin/
 
-/catalog/
+catalog/*
 !/catalog/controller/product/product.php
-!/catalog/view/theme/default/template/product/product.tpl
+!catalog/view/theme/default/template/product/product.tpl
 
 /download/
 /image/
