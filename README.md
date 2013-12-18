@@ -15,5 +15,7 @@ Somewere near line 280
 Also need update the views
 catalog/view/theme/default/template/product/product.tpl
 
-found -  `<input type="text" name="name" value="" />`
-and replace with - `<input type="text" name="name" value="<?php echo $FirstName.' '.$LastName; ?>" />`
+*found* -
+    <input type="text" name="name" value="" />
+*replace* with -
+    <input type="text" name="name" value="<?php echo $FirstName.' '.$LastName; ?>" />
