@@ -3,8 +3,9 @@
 # Config and Htaccess Files
 /admin/
 
-catalog/*
-!catalog/view/theme/default/template/product/product.tpl
+catalog/
+!catalog/controller/account/reviews.php
+!/catalog/view/theme/default/template/product/product.tpl
 
 download/*
 image/*
