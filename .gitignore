@@ -1,14 +1,15 @@
+.idea/
+
 # Config and Htaccess Files
 /admin/
 
-/catalog/*
-!/catalog/view/theme/default/template/product/product.tpl
+catalog/*
+!catalog/view/theme/default/template/product/product.tpl
 
-.idea/
-/download/
-/image/
-/install/
-/system/
+download/*
+image/*
+install/*
+system/*
 .htaccess.txt
 config-dist.php
 index.php
