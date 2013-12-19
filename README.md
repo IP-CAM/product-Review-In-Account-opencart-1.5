@@ -9,7 +9,8 @@ Careful with the replacement files - file was rewrite accounts.
 
 lsit of file :
 
-'catalog/model/catalog/review.php
+```
+catalog/model/catalog/review.php
 
 catalog/controller/account/reviews.php
 
@@ -23,4 +24,5 @@ catalog/language/english/account/reviews.php
 
 catalog/view/theme/default/template/account/reviews.tpl
 
-catalog/view/theme/default/template/account/account.tpl'
+catalog/view/theme/default/template/account/account.tpl
+```
