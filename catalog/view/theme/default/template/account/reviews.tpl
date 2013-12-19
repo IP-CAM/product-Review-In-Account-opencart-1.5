@@ -38,7 +38,11 @@
         vertical-align: bottom;
     }
 
-
+    .review-list > ul > li .review a + a {
+        line-height: 47px;
+        margin-left: 10px;
+        text-decoration: none;
+    }
 </style>
 
 <div id="content"><?php echo $content_top; ?>
@@ -68,16 +72,17 @@
                                     <a href="<?php echo $review['href'] ?>">
                                         <?php echo $review['name'] ?>
                                     </a>
+                                    <div><span class="date"><?php echo $review['date_added']; ?></span></div>
                                 </div>
 
                                 <div>
                                     <div class="rating">
                                         <img src="catalog/view/theme/default/image/stars-<?php echo $review['rating']; ?>.png" alt="<?php echo $review['name']; ?>" />
                                     </div>
+
                                     <div>
                                         <?php echo $review['text'] ?>
                                     </div>
-
                                 </div>
                             </div>
                         </li>
