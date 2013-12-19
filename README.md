@@ -8,8 +8,8 @@ All files in archive created for default version of OC.
 Careful with the replacement files - file was rewrite accounts.
 
 lsit of file :
-`
-catalog/model/catalog/review.php
+
+`catalog/model/catalog/review.php
 
 catalog/controller/account/reviews.php
 
